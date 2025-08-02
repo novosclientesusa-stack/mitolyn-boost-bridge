@@ -17,17 +17,17 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 320 100% 50%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 200 100% 50%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 45 100% 60%;
+    --accent-foreground: 222.2 84% 4.9%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
@@ -35,6 +35,19 @@ All colors MUST be HSL.
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
+
+    /* Mitolyn Brand Colors */
+    --mitolyn-pink: 320 100% 70%;
+    --mitolyn-blue: 200 100% 50%;
+    --mitolyn-orange: 25 100% 60%;
+    --mitolyn-purple: 280 100% 60%;
+    --mitolyn-gradient: linear-gradient(135deg, hsl(var(--mitolyn-pink)), hsl(var(--mitolyn-blue)));
+    --mitolyn-warm-gradient: linear-gradient(135deg, hsl(var(--mitolyn-orange)), hsl(var(--mitolyn-pink)));
+    
+    /* Shadows and Effects */
+    --shadow-glow: 0 0 40px hsl(var(--mitolyn-pink) / 0.3);
+    --shadow-elegant: 0 10px 30px -10px hsl(var(--primary) / 0.3);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --radius: 0.5rem;
 

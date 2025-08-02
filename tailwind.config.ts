@@ -61,7 +61,24 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				mitolyn: {
+					pink: 'hsl(var(--mitolyn-pink))',
+					blue: 'hsl(var(--mitolyn-blue))',
+					orange: 'hsl(var(--mitolyn-orange))',
+					purple: 'hsl(var(--mitolyn-purple))'
 				}
+			},
+			backgroundImage: {
+				'mitolyn-gradient': 'var(--mitolyn-gradient)',
+				'mitolyn-warm': 'var(--mitolyn-warm-gradient)'
+			},
+			boxShadow: {
+				'glow': 'var(--shadow-glow)',
+				'elegant': 'var(--shadow-elegant)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
